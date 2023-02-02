@@ -1,0 +1,31 @@
+<Configuration>
+<Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="Standard2021Volume">
+      <Language ID="ru-RU" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+    <Product ID="Access2019Retail">
+      <Language ID="ru-RU" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+    <Product ID="VisioStd2021Volume">
+      <Language ID="ru-RU" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+</Add>
+<Display Level="Full" AcceptEULA="TRUE" />
+<Updates Enabled="TRUE" Channel="PerpetualVL2021" />
+</Configuration>
+<!--  OInstallSetting Branch=1  -->
+<!--  OInstallSetting Office=0  -->
+<!--  OInstallSetting Arch=1  -->
+<!--  OInstallSetting Redact=2  -->
+<!--  OInstallSetting Product=1  -->
+<!--  OInstallSetting UseODT=0  -->
+<!--  OInstallSetting OnlineKMS=1  -->
+<!--  OInstallSetting PATH=  -->
+<!--  OInstallSetting Lang1=1  -->
